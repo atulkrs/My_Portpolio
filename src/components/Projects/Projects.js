@@ -38,6 +38,7 @@ function Projects() {
               title='Facebook Helpdesk'
               description='A helpdesk system integrated with Facebook Messenger that enables real-time customer support by managing and responding to user queries efficiently.'
               ghLink='https://github.com/atulkrs/Facebook_helpdesk'
+              Demo='https://facebook-helpdesk.vercel.app/'
             />
           </Col>
 
@@ -69,17 +70,6 @@ function Projects() {
               ghLink='https://github.com/atulkrs/Employee_Management_System'
             />
           </Col>
-
-          {/* <Col md={4} className='project-card'>
-            <ProjectCard
-              // imgPath={emotion}
-              isBlog={false}
-              title='Face Recognition and Emotion Detection'
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink='https://github.com/soumyajit4419/Face_And_Emotion_Detection'
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
